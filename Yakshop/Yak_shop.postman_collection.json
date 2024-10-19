@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "0b80c8d8-c8d3-4825-b449-3eb8170e7237",
+		"name": "Yak_shop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16824894"
+	},
+	"item": [
+		{
+			"name": "Yak_stock_request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/yak-shop/stock/13",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"yak-shop",
+						"stock",
+						"13"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Yak_herds_request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/yak-shop/stock/13",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"yak-shop",
+						"stock",
+						"13"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
