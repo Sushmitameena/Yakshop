@@ -61,7 +61,7 @@ Node.js (v14 or higher)
 npm (comes with Node.js)
 Steps
 1.Clone or download the repository to your local machine.
-git clone https://github.com/your-repository/yakshop.git
+git clone https://github.com/Sushmitameena/Yakshop.git
 cd yakshop
 2.Install the dependencies by running the following command:
 3.Place the input JSON file (input.json) in the root directory of the project. Example format:
