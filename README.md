@@ -2,6 +2,8 @@ YakShop Web Service
 Overview
 YakShop is a web service designed to simulate a yak shepherd's herd management. It provides RESTful endpoints to query the stock of milk and skins produced by the yaks over time and the current status of the yak herd, including their ages and the last time they were shaved. The service reads the initial state of the herd from a JSON file and simulates stock production based on predefined yak lifecycle rules.
 
+
+
 Features
 Query stock after T days: The service calculates and returns the total milk produced and the number of yak skins (shavings) collected after a given number of days.
 Query herd status after T days: The service provides the current age and the last shaving time for each yak in the herd after a given number of days.
@@ -57,13 +59,17 @@ Sample Response:
 
 Setup and Installation
 Prerequisites
+
 Node.js (v14 or higher)
 npm (comes with Node.js)
 Steps
 1.Clone or download the repository to your local machine.
+
 git clone https://github.com/Sushmitameena/Yakshop.git
+
 cd yakshop
 2.Install the dependencies by running the following command:
+npm install
 3.Place the input JSON file (input.json) in the root directory of the project. Example format:
 {
     "herd": [
@@ -73,6 +79,7 @@ cd yakshop
     ]
 }
 4.Start the server by running:node yak_shop.js
+
 5.The server will start on port 3000. You can make requests to the following endpoints:
 
 http://localhost:3000/yak-shop/stock/:T
